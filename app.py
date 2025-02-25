@@ -17,8 +17,7 @@ user_input = st.text_input("Describe Your Challenge here.")
 
 #condition
 if user_input:
-    st.success(f"Your Challenge: {user_input}. Keep advancing toward your vision, the finish line is within reach! 🌟💪
-               Push ahead with unwavering determination! 🚀🔥")
+    st.success(f"Your Challenge: {user_input}. Keep advancing toward your vision, the finish line is within reach! 🌟💪. Push ahead with unwavering determination! 🚀🔥")
     
 else:
     st.warning("Tell us about your challenge to get started!")
